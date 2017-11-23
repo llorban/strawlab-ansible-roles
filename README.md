@@ -8,6 +8,12 @@ To install prerequisites:
 
     sudo apt-get install ansible
 
+Clone this repository to your desired location
+
+    mkdir whatever
+    cd whatever
+    git clone https://github.com/strawlab/strawlab-ansible-roles.git
+
 To run the playbook (installs flydra and freemoovr):
 
     sudo ansible-playbook -i "localhost," -c local playbook.yml
